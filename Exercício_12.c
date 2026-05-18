@@ -1,0 +1,7 @@
+nome = str(input('Qual o nome  completo? '))
+mai = nome.upper()
+min = nome.lower()
+quant = nome.count('', 0, nome.find(' ') - 1)
+print(mai)
+print(min)
+print(quant)
